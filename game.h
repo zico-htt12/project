@@ -11,3 +11,4 @@ typedef struct {
 void initialisation(Game *game);
 void printGrid(const Game *game);
 int play(Game *game, int x1, int x2, int y1, int y2);
+
