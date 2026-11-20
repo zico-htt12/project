@@ -26,6 +26,7 @@ int main(void)
     {
         printGrid(&game);
         printf("\nPlayer %c, enter two dots (row col row col): ", game.player);
+        fflush(stdout);
         int r1, c1, r2, c2;
         int n = scanf("%d %d %d %d", &r1, &c1, &r2, &c2);
 
